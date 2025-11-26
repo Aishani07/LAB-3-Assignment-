@@ -1,0 +1,141 @@
+
+/* Google Font + Base Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f6fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+header p {
+  font-size: 1.1em;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #0066cc;
+  text-align: center;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  font-weight: 600;
+}
+nav a:hover {
+  background-color: #004999;
+  border-radius: 5px;
+}
+
+/* Section Formatting */
+section {
+  padding: 40px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* About Section */
+.profile {
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 15px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+th, td {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+}
+th {
+  background-color: #003366;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Form Styling */
+form {
+  text-align: left;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  font-family: 'Poppins', sans-serif;
+}
+button {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #004999;
+}
+
+/* Back to Top Button */
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #003366;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+}
+#topBtn:hover {
+  background-color: #004999;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #003366;
+  color: white;
+  padding: 15px;
+  font-size: 0.9em;
+}
+
+/* Visual Separators */
+hr {
+  border: 1px solid #0066cc;
+  margin: 40px 0;
+}
